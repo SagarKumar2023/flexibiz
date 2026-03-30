@@ -3,9 +3,7 @@ import 'package:flexibiz/screens/authentication/splash.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
 import 'local_database/hive_database_utils/hive_service_init.dart';
-
 
 void main()  async {
   WidgetsFlutterBinding.ensureInitialized();
